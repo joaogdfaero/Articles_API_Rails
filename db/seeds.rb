@@ -1,4 +1,4 @@
-10.times do
+100.times do
     Article.create({
         title: Faker::Book.title,
         body: Faker::Lorem.sentence

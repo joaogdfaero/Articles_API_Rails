@@ -48,3 +48,343 @@ Migrating to CreateArticles (20230506181138)
   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Many Waters"], ["body", "Nihil voluptatibus magnam quia."], ["created_at", "2023-05-06 18:21:05.612604"], ["updated_at", "2023-05-06 18:21:05.612604"]]
   [1m[36mTRANSACTION (62.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2023-05-06 15:21:43 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/3.0.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/3.0.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 19.9ms | Allocations: 931)
+Completed 200 OK in 55ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 7815)
+
+
+Started GET "/articles" for ::1 at 2023-05-06 15:21:50 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/favicon.ico" for ::1 at 2023-05-06 15:21:51 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Blood's a Rover"], ["body", "Ad sunt vel eos."], ["created_at", "2023-05-06 18:24:34.213769"], ["updated_at", "2023-05-06 18:24:34.213769"]]
+  [1m[36mTRANSACTION (51.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Recalled to Life"], ["body", "Id officia quibusdam explicabo."], ["created_at", "2023-05-06 18:24:34.269286"], ["updated_at", "2023-05-06 18:24:34.269286"]]
+  [1m[36mTRANSACTION (45.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Torment of Others"], ["body", "Iure et quos ut."], ["created_at", "2023-05-06 18:24:34.319150"], ["updated_at", "2023-05-06 18:24:34.319150"]]
+  [1m[36mTRANSACTION (37.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "It's a Battlefield"], ["body", "Consectetur suscipit rerum nulla."], ["created_at", "2023-05-06 18:24:34.360721"], ["updated_at", "2023-05-06 18:24:34.360721"]]
+  [1m[36mTRANSACTION (38.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "I Know Why the Caged Bird Sings"], ["body", "Officiis voluptatem sint nostrum."], ["created_at", "2023-05-06 18:24:34.402549"], ["updated_at", "2023-05-06 18:24:34.402549"]]
+  [1m[36mTRANSACTION (87.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Absalom, Absalom!"], ["body", "Rem veniam ducimus minima."], ["created_at", "2023-05-06 18:24:34.494344"], ["updated_at", "2023-05-06 18:24:34.494344"]]
+  [1m[36mTRANSACTION (45.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A Catskill Eagle"], ["body", "Qui sed consequuntur quam."], ["created_at", "2023-05-06 18:24:34.544161"], ["updated_at", "2023-05-06 18:24:34.544161"]]
+  [1m[36mTRANSACTION (54.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "In a Glass Darkly"], ["body", "Voluptate voluptatem cumque ex."], ["created_at", "2023-05-06 18:24:34.602433"], ["updated_at", "2023-05-06 18:24:34.602433"]]
+  [1m[36mTRANSACTION (62.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Of Mice and Men"], ["body", "Beatae eum cupiditate nihil."], ["created_at", "2023-05-06 18:24:34.669325"], ["updated_at", "2023-05-06 18:24:34.669325"]]
+  [1m[36mTRANSACTION (62.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Way Through the Woods"], ["body", "Ut et corrupti quis."], ["created_at", "2023-05-06 18:24:34.735766"], ["updated_at", "2023-05-06 18:24:34.735766"]]
+  [1m[36mTRANSACTION (63.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Arms and the Man"], ["body", "Recusandae vel fuga dolore."], ["created_at", "2023-05-06 18:24:34.802479"], ["updated_at", "2023-05-06 18:24:34.802479"]]
+  [1m[36mTRANSACTION (62.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Mr Standfast"], ["body", "Quo voluptatem dolorem deleniti."], ["created_at", "2023-05-06 18:24:34.869445"], ["updated_at", "2023-05-06 18:24:34.869445"]]
+  [1m[36mTRANSACTION (45.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "As I Lay Dying"], ["body", "Qui consequatur delectus quia."], ["created_at", "2023-05-06 18:24:34.919178"], ["updated_at", "2023-05-06 18:24:34.919178"]]
+  [1m[36mTRANSACTION (63.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Beneath the Bleeding"], ["body", "Eaque enim dignissimos officiis."], ["created_at", "2023-05-06 18:24:34.985825"], ["updated_at", "2023-05-06 18:24:34.985825"]]
+  [1m[36mTRANSACTION (62.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Number the Stars"], ["body", "Et consectetur quod reprehenderit."], ["created_at", "2023-05-06 18:24:35.052438"], ["updated_at", "2023-05-06 18:24:35.052438"]]
+  [1m[36mTRANSACTION (46.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "No Longer at Ease"], ["body", "Exercitationem velit debitis vero."], ["created_at", "2023-05-06 18:24:35.102536"], ["updated_at", "2023-05-06 18:24:35.102536"]]
+  [1m[36mTRANSACTION (45.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Where Angels Fear to Tread"], ["body", "Blanditiis possimus itaque velit."], ["created_at", "2023-05-06 18:24:35.152696"], ["updated_at", "2023-05-06 18:24:35.152696"]]
+  [1m[36mTRANSACTION (46.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Have His Carcase"], ["body", "Quod nesciunt velit quia."], ["created_at", "2023-05-06 18:24:35.202491"], ["updated_at", "2023-05-06 18:24:35.202491"]]
+  [1m[36mTRANSACTION (62.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "From Here to Eternity"], ["body", "Fugit dignissimos recusandae vitae."], ["created_at", "2023-05-06 18:24:35.269133"], ["updated_at", "2023-05-06 18:24:35.269133"]]
+  [1m[36mTRANSACTION (87.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fear and Trembling"], ["body", "Qui minima rerum in."], ["created_at", "2023-05-06 18:24:35.361081"], ["updated_at", "2023-05-06 18:24:35.361081"]]
+  [1m[36mTRANSACTION (78.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Such, Such Were the Joys"], ["body", "Architecto perferendis et laborum."], ["created_at", "2023-05-06 18:24:35.444065"], ["updated_at", "2023-05-06 18:24:35.444065"]]
+  [1m[36mTRANSACTION (63.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "I Know Why the Caged Bird Sings"], ["body", "Occaecati aut voluptate quia."], ["created_at", "2023-05-06 18:24:35.510702"], ["updated_at", "2023-05-06 18:24:35.510702"]]
+  [1m[36mTRANSACTION (54.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Of Human Bondage"], ["body", "Dicta eaque et est."], ["created_at", "2023-05-06 18:24:35.569089"], ["updated_at", "2023-05-06 18:24:35.569089"]]
+  [1m[36mTRANSACTION (46.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Road Less Traveled"], ["body", "Dolorem magnam veritatis voluptas."], ["created_at", "2023-05-06 18:24:35.619733"], ["updated_at", "2023-05-06 18:24:35.619733"]]
+  [1m[36mTRANSACTION (36.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Moon by Night"], ["body", "Consequatur sit est aspernatur."], ["created_at", "2023-05-06 18:24:35.661404"], ["updated_at", "2023-05-06 18:24:35.661404"]]
+  [1m[36mTRANSACTION (37.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This Lime Tree Bower"], ["body", "Quae soluta laudantium provident."], ["created_at", "2023-05-06 18:24:35.702465"], ["updated_at", "2023-05-06 18:24:35.702465"]]
+  [1m[36mTRANSACTION (104.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Many Waters"], ["body", "Quia voluptatem quia minus."], ["created_at", "2023-05-06 18:24:35.810750"], ["updated_at", "2023-05-06 18:24:35.810750"]]
+  [1m[36mTRANSACTION (46.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Let Us Now Praise Famous Men"], ["body", "Ut cumque quia odit."], ["created_at", "2023-05-06 18:24:35.861167"], ["updated_at", "2023-05-06 18:24:35.861167"]]
+  [1m[36mTRANSACTION (63.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A Darkling Plain"], ["body", "Aspernatur perferendis architecto ut."], ["created_at", "2023-05-06 18:24:35.929501"], ["updated_at", "2023-05-06 18:24:35.929501"]]
+  [1m[36mTRANSACTION (123.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "O Jerusalem!"], ["body", "Non aliquam nihil ut."], ["created_at", "2023-05-06 18:24:36.056651"], ["updated_at", "2023-05-06 18:24:36.056651"]]
+  [1m[36mTRANSACTION (62.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Lathe of Heaven"], ["body", "Illum voluptates ut et."], ["created_at", "2023-05-06 18:24:36.123259"], ["updated_at", "2023-05-06 18:24:36.123259"]]
+  [1m[36mTRANSACTION (38.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Such, Such Were the Joys"], ["body", "Aspernatur velit in sequi."], ["created_at", "2023-05-06 18:24:36.164944"], ["updated_at", "2023-05-06 18:24:36.164944"]]
+  [1m[36mTRANSACTION (38.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Last Enemy"], ["body", "Sit commodi rerum consectetur."], ["created_at", "2023-05-06 18:24:36.206733"], ["updated_at", "2023-05-06 18:24:36.206733"]]
+  [1m[36mTRANSACTION (79.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Pale Kings and Princes"], ["body", "Numquam aliquam alias aut."], ["created_at", "2023-05-06 18:24:36.289875"], ["updated_at", "2023-05-06 18:24:36.289875"]]
+  [1m[36mTRANSACTION (63.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Postern of Fate"], ["body", "Fuga sequi velit iure."], ["created_at", "2023-05-06 18:24:36.356535"], ["updated_at", "2023-05-06 18:24:36.356535"]]
+  [1m[36mTRANSACTION (37.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "If Not Now, When?"], ["body", "Doloremque quod mollitia occaecati."], ["created_at", "2023-05-06 18:24:36.398125"], ["updated_at", "2023-05-06 18:24:36.398125"]]
+  [1m[36mTRANSACTION (71.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Consider the Lilies"], ["body", "Non sunt similique sequi."], ["created_at", "2023-05-06 18:24:36.473082"], ["updated_at", "2023-05-06 18:24:36.473082"]]
+  [1m[36mTRANSACTION (71.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Beneath the Bleeding"], ["body", "Perspiciatis quidem a sequi."], ["created_at", "2023-05-06 18:24:36.548174"], ["updated_at", "2023-05-06 18:24:36.548174"]]
+  [1m[36mTRANSACTION (46.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Frequent Hearses"], ["body", "Fuga asperiores blanditiis eius."], ["created_at", "2023-05-06 18:24:36.598097"], ["updated_at", "2023-05-06 18:24:36.598097"]]
+  [1m[36mTRANSACTION (79.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Surprised by Joy"], ["body", "Et quia excepturi facere."], ["created_at", "2023-05-06 18:24:36.681449"], ["updated_at", "2023-05-06 18:24:36.681449"]]
+  [1m[36mTRANSACTION (96.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "An Evil Cradling"], ["body", "Nobis facilis qui sapiente."], ["created_at", "2023-05-06 18:24:36.781460"], ["updated_at", "2023-05-06 18:24:36.781460"]]
+  [1m[36mTRANSACTION (46.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Paths of Glory"], ["body", "Aut magni quae qui."], ["created_at", "2023-05-06 18:24:36.831577"], ["updated_at", "2023-05-06 18:24:36.831577"]]
+  [1m[36mTRANSACTION (62.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Recalled to Life"], ["body", "Repudiandae deleniti dolorum et."], ["created_at", "2023-05-06 18:24:36.898088"], ["updated_at", "2023-05-06 18:24:36.898088"]]
+  [1m[36mTRANSACTION (71.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "To a God Unknown"], ["body", "Placeat et ex ea."], ["created_at", "2023-05-06 18:24:36.973147"], ["updated_at", "2023-05-06 18:24:36.973147"]]
+  [1m[36mTRANSACTION (46.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Tender Is the Night"], ["body", "Veritatis soluta dolorem et."], ["created_at", "2023-05-06 18:24:37.023439"], ["updated_at", "2023-05-06 18:24:37.023439"]]
+  [1m[36mTRANSACTION (46.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Blue Remembered Earth"], ["body", "Cumque voluptas dolor velit."], ["created_at", "2023-05-06 18:24:37.073814"], ["updated_at", "2023-05-06 18:24:37.073814"]]
+  [1m[36mTRANSACTION (44.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Fame Is the Spur"], ["body", "Omnis quasi quaerat numquam."], ["created_at", "2023-05-06 18:24:37.124178"], ["updated_at", "2023-05-06 18:24:37.124178"]]
+  [1m[36mTRANSACTION (45.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Look to Windward"], ["body", "Consequuntur dolor dolores dolor."], ["created_at", "2023-05-06 18:24:37.173359"], ["updated_at", "2023-05-06 18:24:37.173359"]]
+  [1m[36mTRANSACTION (46.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A Handful of Dust"], ["body", "Excepturi incidunt quam saepe."], ["created_at", "2023-05-06 18:24:37.223849"], ["updated_at", "2023-05-06 18:24:37.223849"]]
+  [1m[36mTRANSACTION (85.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Terrible Swift Sword"], ["body", "Ut optio explicabo repellendus."], ["created_at", "2023-05-06 18:24:37.314765"], ["updated_at", "2023-05-06 18:24:37.314765"]]
+  [1m[36mTRANSACTION (88.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "It's a Battlefield"], ["body", "Sed provident itaque velit."], ["created_at", "2023-05-06 18:24:37.406624"], ["updated_at", "2023-05-06 18:24:37.406624"]]
+  [1m[36mTRANSACTION (45.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Wind's Twelve Quarters"], ["body", "Facere explicabo aut quaerat."], ["created_at", "2023-05-06 18:24:37.456894"], ["updated_at", "2023-05-06 18:24:37.456894"]]
+  [1m[36mTRANSACTION (49.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "It's a Battlefield"], ["body", "Cumque est ut aut."], ["created_at", "2023-05-06 18:24:37.510672"], ["updated_at", "2023-05-06 18:24:37.510672"]]
+  [1m[36mTRANSACTION (50.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Time To Murder And Create"], ["body", "Est sunt necessitatibus veniam."], ["created_at", "2023-05-06 18:24:37.565573"], ["updated_at", "2023-05-06 18:24:37.565573"]]
+  [1m[36mTRANSACTION (61.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Nine Coaches Waiting"], ["body", "Id dolorem enim enim."], ["created_at", "2023-05-06 18:24:37.631895"], ["updated_at", "2023-05-06 18:24:37.631895"]]
+  [1m[36mTRANSACTION (61.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Behold the Man"], ["body", "Sit ut omnis tempore."], ["created_at", "2023-05-06 18:24:37.698282"], ["updated_at", "2023-05-06 18:24:37.698282"]]
+  [1m[36mTRANSACTION (78.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Grapes of Wrath"], ["body", "Quis tempora quia ea."], ["created_at", "2023-05-06 18:24:37.781810"], ["updated_at", "2023-05-06 18:24:37.781810"]]
+  [1m[36mTRANSACTION (87.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Ego Dominus Tuus"], ["body", "Enim et sed et."], ["created_at", "2023-05-06 18:24:37.873180"], ["updated_at", "2023-05-06 18:24:37.873180"]]
+  [1m[36mTRANSACTION (46.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Painted Veil"], ["body", "Ipsum et quia assumenda."], ["created_at", "2023-05-06 18:24:37.923557"], ["updated_at", "2023-05-06 18:24:37.923557"]]
+  [1m[36mTRANSACTION (54.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A Handful of Dust"], ["body", "Quo beatae sed sint."], ["created_at", "2023-05-06 18:24:37.981387"], ["updated_at", "2023-05-06 18:24:37.981387"]]
+  [1m[36mTRANSACTION (46.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Jesting Pilate"], ["body", "Maxime est illum molestiae."], ["created_at", "2023-05-06 18:24:38.031391"], ["updated_at", "2023-05-06 18:24:38.031391"]]
+  [1m[36mTRANSACTION (46.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Behold the Man"], ["body", "Inventore ipsa ut fugiat."], ["created_at", "2023-05-06 18:24:38.081387"], ["updated_at", "2023-05-06 18:24:38.081387"]]
+  [1m[36mTRANSACTION (38.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Moving Toyshop"], ["body", "Modi vel maiores rerum."], ["created_at", "2023-05-06 18:24:38.123943"], ["updated_at", "2023-05-06 18:24:38.123943"]]
+  [1m[36mTRANSACTION (60.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Recalled to Life"], ["body", "Magnam qui illo voluptatibus."], ["created_at", "2023-05-06 18:24:38.190711"], ["updated_at", "2023-05-06 18:24:38.190711"]]
+  [1m[36mTRANSACTION (60.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Mirror Crack'd from Side to Side"], ["body", "Id necessitatibus dolorem doloribus."], ["created_at", "2023-05-06 18:24:38.257222"], ["updated_at", "2023-05-06 18:24:38.257222"]]
+  [1m[36mTRANSACTION (77.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Eyeless in Gaza"], ["body", "Qui dolor earum quia."], ["created_at", "2023-05-06 18:24:38.339939"], ["updated_at", "2023-05-06 18:24:38.339939"]]
+  [1m[36mTRANSACTION (64.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Wings of the Dove"], ["body", "Placeat ipsum et nam."], ["created_at", "2023-05-06 18:24:38.407871"], ["updated_at", "2023-05-06 18:24:38.407871"]]
+  [1m[36mTRANSACTION (46.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "In Dubious Battle"], ["body", "Velit rerum ut aliquid."], ["created_at", "2023-05-06 18:24:38.458185"], ["updated_at", "2023-05-06 18:24:38.458185"]]
+  [1m[36mTRANSACTION (77.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Brandy of the Damned"], ["body", "Commodi qui aliquid voluptatem."], ["created_at", "2023-05-06 18:24:38.541891"], ["updated_at", "2023-05-06 18:24:38.541891"]]
+  [1m[36mTRANSACTION (80.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Cover Her Face"], ["body", "Sequi itaque nisi consequatur."], ["created_at", "2023-05-06 18:24:38.627327"], ["updated_at", "2023-05-06 18:24:38.627327"]]
+  [1m[36mTRANSACTION (46.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "No Country for Old Men"], ["body", "Mollitia sit molestiae aut."], ["created_at", "2023-05-06 18:24:38.678102"], ["updated_at", "2023-05-06 18:24:38.678102"]]
+  [1m[36mTRANSACTION (91.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Waste Land"], ["body", "Odit consequatur et ipsa."], ["created_at", "2023-05-06 18:24:38.775242"], ["updated_at", "2023-05-06 18:24:38.775242"]]
+  [1m[36mTRANSACTION (43.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Edna O'Brien"], ["body", "Est aut voluptates qui."], ["created_at", "2023-05-06 18:24:38.824246"], ["updated_at", "2023-05-06 18:24:38.824246"]]
+  [1m[36mTRANSACTION (46.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "I Will Fear No Evil"], ["body", "Facere recusandae incidunt placeat."], ["created_at", "2023-05-06 18:24:38.874370"], ["updated_at", "2023-05-06 18:24:38.874370"]]
+  [1m[36mTRANSACTION (70.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Absalom, Absalom!"], ["body", "Odio quia illo sint."], ["created_at", "2023-05-06 18:24:38.949754"], ["updated_at", "2023-05-06 18:24:38.949754"]]
+  [1m[36mTRANSACTION (45.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "No Longer at Ease"], ["body", "Facilis quibusdam architecto illum."], ["created_at", "2023-05-06 18:24:38.999305"], ["updated_at", "2023-05-06 18:24:38.999305"]]
+  [1m[36mTRANSACTION (49.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Let Us Now Praise Famous Men"], ["body", "Asperiores vel modi unde."], ["created_at", "2023-05-06 18:24:39.052376"], ["updated_at", "2023-05-06 18:24:39.052376"]]
+  [1m[36mTRANSACTION (46.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Grapes of Wrath"], ["body", "Voluptatem ab dolores eligendi."], ["created_at", "2023-05-06 18:24:39.102260"], ["updated_at", "2023-05-06 18:24:39.102260"]]
+  [1m[36mTRANSACTION (53.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Consider the Lilies"], ["body", "Mollitia deserunt animi et."], ["created_at", "2023-05-06 18:24:39.160798"], ["updated_at", "2023-05-06 18:24:39.160798"]]
+  [1m[36mTRANSACTION (46.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Antic Hay"], ["body", "Occaecati debitis aut nesciunt."], ["created_at", "2023-05-06 18:24:39.210548"], ["updated_at", "2023-05-06 18:24:39.210548"]]
+  [1m[36mTRANSACTION (43.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Cabbages and Kings"], ["body", "Distinctio porro sunt veniam."], ["created_at", "2023-05-06 18:24:39.258434"], ["updated_at", "2023-05-06 18:24:39.258434"]]
+  [1m[36mTRANSACTION (77.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "As I Lay Dying"], ["body", "Debitis at impedit atque."], ["created_at", "2023-05-06 18:24:39.340955"], ["updated_at", "2023-05-06 18:24:39.340955"]]
+  [1m[36mTRANSACTION (46.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Taming a Sea Horse"], ["body", "Nulla adipisci laborum quia."], ["created_at", "2023-05-06 18:24:39.391047"], ["updated_at", "2023-05-06 18:24:39.391047"]]
+  [1m[36mTRANSACTION (46.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A Swiftly Tilting Planet"], ["body", "Eos laborum quibusdam et."], ["created_at", "2023-05-06 18:24:39.441000"], ["updated_at", "2023-05-06 18:24:39.441000"]]
+  [1m[36mTRANSACTION (46.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A Time of Gifts"], ["body", "Sed magnam est dolor."], ["created_at", "2023-05-06 18:24:39.490835"], ["updated_at", "2023-05-06 18:24:39.490835"]]
+  [1m[36mTRANSACTION (49.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Shall not Perish"], ["body", "Et adipisci perspiciatis corporis."], ["created_at", "2023-05-06 18:24:39.543854"], ["updated_at", "2023-05-06 18:24:39.543854"]]
+  [1m[36mTRANSACTION (52.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Eyeless in Gaza"], ["body", "Fugiat sequi fugit pariatur."], ["created_at", "2023-05-06 18:24:39.599774"], ["updated_at", "2023-05-06 18:24:39.599774"]]
+  [1m[36mTRANSACTION (45.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Cricket on the Hearth"], ["body", "Magni temporibus inventore dolor."], ["created_at", "2023-05-06 18:24:39.649355"], ["updated_at", "2023-05-06 18:24:39.649355"]]
+  [1m[36mTRANSACTION (82.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Proper Study"], ["body", "Placeat facere eius qui."], ["created_at", "2023-05-06 18:24:39.735483"], ["updated_at", "2023-05-06 18:24:39.735483"]]
+  [1m[36mTRANSACTION (43.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "I Know Why the Caged Bird Sings"], ["body", "Exercitationem quos velit amet."], ["created_at", "2023-05-06 18:24:39.782644"], ["updated_at", "2023-05-06 18:24:39.782644"]]
+  [1m[36mTRANSACTION (54.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "A Handful of Dust"], ["body", "Eum qui quaerat neque."], ["created_at", "2023-05-06 18:24:39.841312"], ["updated_at", "2023-05-06 18:24:39.841312"]]
+  [1m[36mTRANSACTION (78.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Taming a Sea Horse"], ["body", "Inventore deleniti blanditiis reprehenderit."], ["created_at", "2023-05-06 18:24:39.924377"], ["updated_at", "2023-05-06 18:24:39.924377"]]
+  [1m[36mTRANSACTION (78.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "It's a Battlefield"], ["body", "Ut nemo omnis cupiditate."], ["created_at", "2023-05-06 18:24:40.008489"], ["updated_at", "2023-05-06 18:24:40.008489"]]
+  [1m[36mTRANSACTION (77.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "All the King's Men"], ["body", "Vel et soluta velit."], ["created_at", "2023-05-06 18:24:40.091661"], ["updated_at", "2023-05-06 18:24:40.091661"]]
+  [1m[36mTRANSACTION (77.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Little Foxes"], ["body", "Commodi maxime neque perferendis."], ["created_at", "2023-05-06 18:24:40.174284"], ["updated_at", "2023-05-06 18:24:40.174284"]]
+  [1m[36mTRANSACTION (46.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Have His Carcase"], ["body", "Quae facere occaecati hic."], ["created_at", "2023-05-06 18:24:40.224254"], ["updated_at", "2023-05-06 18:24:40.224254"]]
+  [1m[36mTRANSACTION (46.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "An Evil Cradling"], ["body", "Architecto est ipsum est."], ["created_at", "2023-05-06 18:24:40.274785"], ["updated_at", "2023-05-06 18:24:40.274785"]]
+  [1m[36mTRANSACTION (78.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Waiting for the Barbarians"], ["body", "Ut officia rem voluptas."], ["created_at", "2023-05-06 18:24:40.374896"], ["updated_at", "2023-05-06 18:24:40.374896"]]
+  [1m[36mTRANSACTION (78.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "In a Glass Darkly"], ["body", "Ullam saepe doloribus et."], ["created_at", "2023-05-06 18:24:40.457806"], ["updated_at", "2023-05-06 18:24:40.457806"]]
+  [1m[36mTRANSACTION (49.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Number the Stars"], ["body", "Tempora odit explicabo voluptates."], ["created_at", "2023-05-06 18:24:40.510613"], ["updated_at", "2023-05-06 18:24:40.510613"]]
+  [1m[36mTRANSACTION (43.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2023-05-06 15:38:42 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+Started GET "/api/v1/articles" for ::1 at 2023-05-06 15:39:15 -0300
+Processing by Api::V1::ArticlesController#index as */*
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 22051)
+
+
+  
+NameError (undefined local variable or method `articles' for #<Api::V1::ArticlesController:0x00000000008e08>
+Did you mean?  @articles):
+  
+app/controllers/api/v1/articles_controller.rb:6:in `index'
+Started GET "/api/v1/articles" for ::1 at 2023-05-06 15:39:58 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/articles_controller.rb:6:in `index'
+Completed 200 OK in 47ms (Views: 33.8ms | ActiveRecord: 1.0ms | Allocations: 49470)
+
+
