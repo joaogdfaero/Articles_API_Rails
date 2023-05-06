@@ -1,2 +1,2 @@
-# Articles_API_Rails
+# Articles API Rails
 API de artigos desenvolvida em Ruby on Rails.
