@@ -6,7 +6,7 @@ API simples de artigos para desenvolvida em Ruby on Rails utilizando também a G
 ` git clone https://github.com/joaogdfaero/Articles_API_Rails.git`
 
 2. **Acesse a pasta do projeto**  
-` cd Articles_API_Rails `
+` cd articles_api_Rails `
 
 3. **Instale as gems necessárias**  
 ` bundle `
