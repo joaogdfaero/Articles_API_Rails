@@ -26,6 +26,16 @@ module Api
                 article.destroy
                 render json: {status: 'SUCCESS', message: 'Deleted Article', data:article}, stauts: :ok
             end
+
+            def update
+                article = Article.find(params[:id])
+                if article.update_attribute(article_params)
+                    render json: {status: 'SUCCESS', message: 'Updated Article', data:article}, stauts: :ok
+                else
+                    render json: {status: 'ERROR', message: 'Article not updated', data:article.errors}, status: :unprocessable_entity
+                end
+
+            end
             
             private
 

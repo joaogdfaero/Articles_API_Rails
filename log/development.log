@@ -868,3 +868,64 @@ Processing by Api::V1::ArticlesController#destroy as */*
 Completed 200 OK in 126ms (Views: 0.5ms | ActiveRecord: 79.6ms | Allocations: 6240)
 
 
+Started PUT "/api/v1/articles/6" for ::1 at 2023-05-10 19:00:17 -0300
+  
+SyntaxError (/home/joao-desktop/Documents/GitHub/Articles_API_Rails/app/controllers/api/v1/articles_controller.rb:47: unterminated string meets end of file
+/home/joao-desktop/Documents/GitHub/Articles_API_Rails/app/controllers/api/v1/articles_controller.rb:47: syntax error, unexpected end-of-input, expecting '}'):
+  
+app/controllers/api/v1/articles_controller.rb:47: unterminated string meets end of file
+app/controllers/api/v1/articles_controller.rb:47: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/api/v1/articles_controller.rb:47: unterminated string meets end of file
+app/controllers/api/v1/articles_controller.rb:47: syntax error, unexpected end-of-input, expecting '}'
+Started PUT "/api/v1/articles/6" for ::1 at 2023-05-10 19:01:11 -0300
+Processing by Api::V1::ArticlesController#update as */*
+  Parameters: {"title"=>"updated title", "body"=>"updated body", "id"=>"6", "article"=>{"title"=>"updated title", "body"=>"updated body"}}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/articles_controller.rb:31:in `update'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms | Allocations: 965)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=6):
+  
+app/controllers/api/v1/articles_controller.rb:31:in `update'
+Started PUT "/api/v1/articles/2" for ::1 at 2023-05-10 19:01:22 -0300
+Processing by Api::V1::ArticlesController#update as */*
+  Parameters: {"title"=>"updated title", "body"=>"updated body", "id"=>"2", "article"=>{"title"=>"updated title", "body"=>"updated body"}}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/articles_controller.rb:31:in `update'
+[31mUnpermitted parameters: :id, :article. Context: { controller: Api::V1::ArticlesController, action: update, request: #<ActionDispatch::Request:0x00007fe46c177520>, params: {"title"=>"updated title", "body"=>"updated body", "controller"=>"api/v1/articles", "action"=>"update", "id"=>"2", "article"=>{"title"=>"updated title", "body"=>"updated body"}} }[0m
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.1ms | Allocations: 4127)
+
+
+  
+NoMethodError (undefined method `update_attributes' for #<Article id: 2, title: "The Proper Study", body: "Sed iusto quo eos.", created_at: "2023-05-06 18:21:05.095984000 +0000", updated_at: "2023-05-06 18:21:05.095984000 +0000">
+Did you mean?  update_attribute):
+  
+app/controllers/api/v1/articles_controller.rb:32:in `update'
+Started PUT "/api/v1/articles/2" for ::1 at 2023-05-10 19:02:20 -0300
+Processing by Api::V1::ArticlesController#update as */*
+  Parameters: {"title"=>"updated title", "body"=>"updated body", "id"=>"2", "article"=>{"title"=>"updated title", "body"=>"updated body"}}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/articles_controller.rb:31:in `update'
+[31mUnpermitted parameters: :id, :article. Context: { controller: Api::V1::ArticlesController, action: update, request: #<ActionDispatch::Request:0x00007fe458345500>, params: {"title"=>"updated title", "body"=>"updated body", "controller"=>"api/v1/articles", "action"=>"update", "id"=>"2", "article"=>{"title"=>"updated title", "body"=>"updated body"}} }[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.0ms | Allocations: 2336)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/controllers/api/v1/articles_controller.rb:32:in `update'
+Started PUT "/api/v1/articles/2" for ::1 at 2023-05-10 19:03:07 -0300
+Processing by Api::V1::ArticlesController#update as */*
+  Parameters: {"title"=>"updated title", "body"=>"updated body", "id"=>"2", "article"=>{"title"=>"updated title", "body"=>"updated body"}}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/articles_controller.rb:31:in `update'
+[31mUnpermitted parameters: :id, :article. Context: { controller: Api::V1::ArticlesController, action: update, request: #<ActionDispatch::Request:0x00007fe46002d158>, params: {"title"=>"updated title", "body"=>"updated body", "controller"=>"api/v1/articles", "action"=>"update", "id"=>"2", "article"=>{"title"=>"updated title", "body"=>"updated body"}} }[0m
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 640)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/controllers/api/v1/articles_controller.rb:32:in `update'
