@@ -729,3 +729,142 @@ Processing by Api::V1::ArticlesController#show as */*
 Completed 200 OK in 24ms (Views: 1.0ms | ActiveRecord: 0.8ms | Allocations: 38002)
 
 
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+Started GET "/api/v1/articles/" for ::1 at 2023-05-08 19:11:06 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  ↳ app/controllers/api/v1/articles_controller.rb:6:in `index'
+Completed 200 OK in 39ms (Views: 35.6ms | ActiveRecord: 1.3ms | Allocations: 41821)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:15:34 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f6bf49a0b98>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 296ms (Views: 275.3ms | ActiveRecord: 0.6ms | Allocations: 378007)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:16:17 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f6c0801ee30>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 973)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:17:19 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f6bf80144e0>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 939)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:19:08 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f6bfc015ad0>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 939)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:20:34 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f6bec01fb08>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 939)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:20:44 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f6bf637fd70>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 929)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:20:55 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f6c0804c2e0>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 929)
+
+
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: localhost
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:24:15 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f29dc96e260>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 298ms (Views: 276.9ms | ActiveRecord: 0.7ms | Allocations: 377997)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:24:47 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f29e401f3a0>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 973)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-08 19:24:52 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f29d0016520>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 939)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-10 18:41:27 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f61689a0328>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 531ms (Views: 370.8ms | ActiveRecord: 0.7ms | Allocations: 378000)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-10 18:44:26 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007f167c9a1520>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/articles_controller.rb:17:in `create'
+  [1m[36mArticle Create (17.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", nil], ["body", nil], ["created_at", "2023-05-10 21:44:27.084412"], ["updated_at", "2023-05-10 21:44:27.084412"]]
+  ↳ app/controllers/api/v1/articles_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (107.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/articles_controller.rb:17:in `create'
+Completed 200 OK in 158ms (Views: 0.4ms | ActiveRecord: 125.4ms | Allocations: 38670)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-10 18:46:07 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007fe4649debf8>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 294ms (Views: 272.1ms | ActiveRecord: 0.6ms | Allocations: 378006)
+
+
+Started POST "/api/v1/articles" for ::1 at 2023-05-10 18:49:09 -0300
+Processing by Api::V1::ArticlesController#create as HTML
+  Parameters: {"article"=>{}}
+[31mUnpermitted parameter: :article. Context: { controller: Api::V1::ArticlesController, action: create, request: #<ActionDispatch::Request:0x00007fe46c147d98>, params: {"controller"=>"api/v1/articles", "action"=>"create", "article"=>{}} }[0m
+Completed 422 Unprocessable Entity in 4ms (Views: 1.1ms | ActiveRecord: 0.8ms | Allocations: 2550)
+
+
+Started DELETE "/api/v1/articles/6" for ::1 at 2023-05-10 18:54:52 -0300
+Processing by Api::V1::ArticlesController#destroy as */*
+  Parameters: {"id"=>"6"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/articles_controller.rb:25:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/articles_controller.rb:26:in `destroy'
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/api/v1/articles_controller.rb:26:in `destroy'
+  [1m[36mTRANSACTION (78.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/articles_controller.rb:26:in `destroy'
+Completed 200 OK in 126ms (Views: 0.5ms | ActiveRecord: 79.6ms | Allocations: 6240)
+
+

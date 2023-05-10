@@ -17,11 +17,16 @@ module Api
                 if article.save
                     render json: {status: 'SUCCESS', message: 'Saved Article', data:article}, stauts: :ok
                 else
-                    render json: {status: 'ERROR', message: 'Article not saved', data:article.errors}, stauts: :unprocessable_entity
+                    render json: {status: 'ERROR', message: 'Article not saved', data:article.errors}, status: :unprocessable_entity
                 end 
-            end    
-                
-
+            end  
+            
+            def destroy
+                article = Article.find(params[:id])
+                article.destroy
+                render json: {status: 'SUCCESS', message: 'Deleted Article', data:article}, stauts: :ok
+            end
+            
             private
 
             def article_params
